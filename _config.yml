@@ -1,0 +1,10 @@
+name: Paul's Website
+title: Paul's Website
+author: Paul Crews
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
