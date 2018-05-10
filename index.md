@@ -1,6 +1,6 @@
 ---
-title: My page
+title: Home
 layout: index
 ---
-
-# {{ page.title }}
+Welcome to my website. I am currently a computer science student  
+at Stanford University, interested in resilient, efficient, and secure systems.
