@@ -31,8 +31,8 @@
             </div>
             <nav>
               <ul>
-                {% for post in site.posts %}
-                  <li><a href="#{{ post.name }}">{{ post.title }}</a></li>
+                {% for section in site.sections %}
+                  <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
                 {% endfor %}
               </ul>
             </nav>
@@ -41,14 +41,14 @@
         <!-- Main -->
           <div id="main">
 
-            {% for post in site.posts %}
-              <!-- {{ post.title }} -->
-              <article id="{{ post.name }}">
-                <h2 class="major">{{ post.title }}</h2>
-                {% if post.image %}
-                  <span class="image main"><img src="{{ post.image }}" alt="" /></span>
+            {% for section in site.sections %}
+              <!-- {{ section.title }} -->
+              <article id="{{ section.name }}">
+                <h2 class="major">{{ section.title }}</h2>
+                {% if section.image %}
+                  <span class="image main"><img src="{{ section.image }}" alt="" /></span>
                 {% endif %}
-                {{ post.content }}
+                {{ section.content }}
               </article>
             {% endfor %}
 
@@ -60,8 +60,6 @@
               <ul class="icons">
                 <li><a href="https://twitter.com/ptcrews" class="icon fa-twitter" target="_blank">
                     <span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook" target="_blank">
-                    <span class="label">Facebook</span></a></li>
                 <li><a href="https://linkedin.com/in/ptcrews" class="icon fa-linkedin" target="_blank">
                     <span class="label">LinkedIn</span></a></li>
                 <li><a href="https://github.com/ptcrews" class="icon fa-github" target="_blank">
