@@ -4,7 +4,9 @@ name: projects
 image: images/tock.png
 ---
 Below are some of the major projects I've worked on. They are split into two
-main categories - research and implementation.
+main categories - [research](#research) and [implementation](#implementation).
+
+-------------------------------------------------------------------------------
 
 ## Research
 For research projects, the bulk of my work has focused on networking for
