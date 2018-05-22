@@ -12,9 +12,11 @@ main categories - [research](#research) and [implementation](#implementation).
 For research projects, the bulk of my work has focused on networking for
 embedded systems.
 
-### [The Tock Operating System](https://www.tockos.org/) ([code](https://github.com/ptcrews/tock))
+### [The Tock Operating System][tock_website]
+[website][tock_website_icon]
+[code][tock_code]
 
-The [Tock research project](https://www.tockos.org) is an embedded operating
+The [Tock research project][tock_website] is an embedded operating
 system written in Rust. The goal of the project is to improve the security of
 low-power, IoT devices by leveraging Rust's compile-time guarantees.
 
@@ -25,7 +27,8 @@ am implementing a UDP/IPv6/6LoWPAN stack on Tock, which is slowly making its
 way into the mainstream kernel. You can check out my code for this project
 on my fork on [GitHub](https://github.com/ptcrews/tock).
 
-### SOSP 2017 Tutorial ([tutorial]({{ "/docs/sosp2017tutorial.pdf" | absolute_url }}))
+### SOSP 2017 Tutorial
+[tutorial][sosp_2017_tutorial]
 
 As part of my involvement with the Tock project, I helped run a tutorial on
 using Tock at SOSP 2017 in Shanghai. While there, we presented the Tock
@@ -34,7 +37,8 @@ to use and interface with the operating system. By introducing other researchers
 to the Tock platform, we hoped to encourage other researchers and institutions
 to use Tock in the future.
 
-### 6LoWPAN ([poster]({{ "/docs/sixlowpan_poster.pdf" | absolute_url }}))
+### 6LoWPAN
+[poster][6lowpan_poster]
 
 As part of my work on Tock, I spent several months implementing the 6LoWPAN
 protocol, which is a compression scheme for wireless, low-power IPv6 networks.
@@ -51,10 +55,11 @@ For implementation projects, most of my projects have focused on embedded
 systems, networking, and distributed systems. A collection of my work is listed
 below.
 
-### Senior Project ([code](https://github.com/ptcrews/tock/tree/deluge_protocol))
+### Senior Project
+[code][senior_project_code]
 
 For my senior project, I am implementing the
-[Deluge protocol](https://web.stanford.edu/class/cs244e/papers/deluge.pdf)
+[Deluge protocol][deluge_paper]
 on the Tock platform. This protocol is used for updating binaries in low-power
 wireless networks, and allows for the efficient dissemination of binaries to
 multiple listening nodes. In addition to standard single-binary Deluge, this
@@ -63,18 +68,21 @@ updated simultaneously.
 
 This project will be completed by June 2018.
 
-### CS 244B Project ([paper]({{ "/docs/cs244b_project.pdf" | absolute_url }}), [code](https://github.com/ptcrews/tock/tree/cs244b_trickle))
+### CS 244B Project
+[paper][cs244b_final_paper]
+[code][cs244b_code]
 
 For my final project in CS 244B (Distributed Systems), my group implemented a
 modified version of the
-[Trickle algorithm](http://csl.stanford.edu/~pal/pubs/trickle-nsdi04.pdf)
+[Trickle algorithm][trickle_paper]
 which aims for eventual consistency in low-power wireless networks. As part of
 our modifications, we enabled some portion of nodes in the network to completely
 enter sleep mode, rather than requiring all nodes remain in the listen state.
 This improved the power efficiency of the network, while still retaining the
 eventually consistent distributed system property.
 
-### CS 241 Project ([tutorial](http://www.instructables.com/id/Low-Energy-River-Quality-Monitor/))
+### CS 241 Project
+[tutorial][cs241_tutorial]
 
 For my final project in CS 241 (Embedded Systems), my group created a low-power
 wireless water quality monitor system. We implemented a test-bed on the STM
@@ -82,3 +90,31 @@ Nucleo microcontroller, which was aimed at allowing different sensors to be
 plugged into the board. The system would then periodically transmit sensor
 measurements over GSM. We published an online tutorial demonstrating how we
 implemented this project.
+
+[tock_website]: https://www.tockos.org/
+{:target="\blank"}
+[tock_website_icon]: https://www.tockos.org/
+{:class="button special icon fa-link" target="\_blank"}
+[tock_code]: https://github.com/ptcrews/tock
+{:class="button special icon fa-github" target="\_blank"}
+
+[sosp_2017_tutorial]: {{ "/docs/sosp2017tutorial.pdf" | absolute_url }}
+{:class="button special icon fa-download" target="\_blank"}
+
+[6lowpan_poster]: {{ "/docs/sixlowpan_poster.pdf" | absolute_url }}
+{:class="button special icon fa-download" target="\_blank"}
+
+[senior_project_code]: https://github.com/ptcrews/tock/tree/deluge_protocol
+{:class="button special icon fa-github" target="\_blank"}
+[deluge_paper]: https://web.stanford.edu/class/cs244e/papers/deluge.pdf
+{:target="\_blank"}
+
+[cs244b_final_paper]: {{ "/docs/cs244b_project.pdf" | absolute_url }}
+{:class="button special icon fa-download" target="\_blank"}
+[cs244b_code]: https://github.com/ptcrews/tock/tree/cs244b_trickle
+{:class="button special icon fa-github" target="\_blank"}
+[trickle_paper]: http://csl.stanford.edu/~pal/pubs/trickle-nsdi04.pdf
+{:target="\_blank"}
+
+[cs241_tutorial]: http://www.instructables.com/id/Low-Energy-River-Quality-Monitor/
+{:class="button special icon fa-link" target="\_blank"}
