@@ -31,7 +31,8 @@
             </div>
             <nav>
               <ul>
-                {% for section in site.sections %}
+                {% assign sorted_sections = site.sections | sort: 'rank' %}
+                {% for section in sorted_sections %}
                   <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
                 {% endfor %}
               </ul>

@@ -1,10 +1,21 @@
 ---
 title: Projects
 name: projects
-image: images/tock.png
+image: images/projects.png
+rank: 0
 ---
 Below are some of the major projects I've worked on. They are split into two
 main categories - [research](#research) and [implementation](#implementation).
+
+### Research
+- [The Tock Operating System:](#tockos) A secure, embedded OS in Rust
+- [SOSP 2017 Tutorial:](#sosp2017) Tutorial for Tock at SOSP
+- [6LoWPAN:](#6lowpan) Research on the 6LoWPAN protocol
+
+### Implementation
+- [Senior Project:](#senior-project) Wireless application updating
+- [CS 244B Project:](#cs244b) Distributed protocol for eventual consistency
+- [CS 241 Project:](#cs241) Low-power water quality measurement system
 
 -------------------------------------------------------------------------------
 
@@ -12,22 +23,23 @@ main categories - [research](#research) and [implementation](#implementation).
 For research projects, the bulk of my work has focused on networking for
 embedded systems.
 
-### [The Tock Operating System][tock_website]
-[website][tock_website_icon]
+### The Tock Operating System ![Tock logo][tock_logo]
+{: #tockos}
+[website][tock_website_button]
 [code][tock_code]
 
 The [Tock research project][tock_website] is an embedded operating
 system written in Rust. The goal of the project is to improve the security of
 low-power, IoT devices by leveraging Rust's compile-time guarantees.
 
-![Tock logo]({{ "/images/tock_logo.svg" | absolute_url }})
 
 My work on this project has largely been focused on the networking stack. I
 am implementing a UDP/IPv6/6LoWPAN stack on Tock, which is slowly making its
 way into the mainstream kernel. You can check out my code for this project
 on my fork on [GitHub](https://github.com/ptcrews/tock).
 
-### SOSP 2017 Tutorial
+### SOSP 2017 Tutorial ![SOSP logo][sosp_2017_logo]
+{: #sosp2017}
 [tutorial][sosp_2017_tutorial]
 
 As part of my involvement with the Tock project, I helped run a tutorial on
@@ -38,6 +50,7 @@ to the Tock platform, we hoped to encourage other researchers and institutions
 to use Tock in the future.
 
 ### 6LoWPAN
+{: #6lowpan}
 [poster][6lowpan_poster]
 
 As part of my work on Tock, I spent several months implementing the 6LoWPAN
@@ -56,10 +69,10 @@ systems, networking, and distributed systems. A collection of my work is listed
 below.
 
 ### Senior Project
+{: #senior-project}
 [code][senior_project_code]
 
-For my senior project, I am implementing the
-[Deluge protocol][deluge_paper]
+For my senior project, I am implementing the [Deluge protocol][deluge_paper]
 on the Tock platform. This protocol is used for updating binaries in low-power
 wireless networks, and allows for the efficient dissemination of binaries to
 multiple listening nodes. In addition to standard single-binary Deluge, this
@@ -69,19 +82,20 @@ updated simultaneously.
 This project will be completed by June 2018.
 
 ### CS 244B Project
+{: #cs244b}
 [paper][cs244b_final_paper]
 [code][cs244b_code]
 
 For my final project in CS 244B (Distributed Systems), my group implemented a
-modified version of the
-[Trickle algorithm][trickle_paper]
-which aims for eventual consistency in low-power wireless networks. As part of
-our modifications, we enabled some portion of nodes in the network to completely
+modified version of the [Trickle algorithm][trickle_paper] which aims for
+eventual consistency in low-power wireless networks. As part of our
+modifications, we enabled some portion of nodes in the network to completely
 enter sleep mode, rather than requiring all nodes remain in the listen state.
 This improved the power efficiency of the network, while still retaining the
 eventually consistent distributed system property.
 
-### CS 241 Project
+### CS 241 Project ![CS241 image][cs241_image]
+{: #cs241}
 [tutorial][cs241_tutorial]
 
 For my final project in CS 241 (Embedded Systems), my group created a low-power
@@ -93,13 +107,17 @@ implemented this project.
 
 [tock_website]: https://www.tockos.org/
 {:target="\blank"}
-[tock_website_icon]: https://www.tockos.org/
+[tock_logo]: {{ "/images/tock_logo.svg" | absolute_url }}
+{:style="float: right;margin-right: 7px;margin-top: 7px;"}
+[tock_website_button]: https://www.tockos.org/
 {:class="button special icon fa-link" target="\_blank"}
 [tock_code]: https://github.com/ptcrews/tock
 {:class="button special icon fa-github" target="\_blank"}
 
 [sosp_2017_tutorial]: {{ "/docs/sosp2017tutorial.pdf" | absolute_url }}
 {:class="button special icon fa-download" target="\_blank"}
+[sosp_2017_logo]: {{ "/images/sosp_2017_logo.jpg" | absolute_url }}
+{:style="float: right;margin-right: 7px;margin-top: 7px;width:30%;height:30%;"}
 
 [6lowpan_poster]: {{ "/docs/sixlowpan_poster.pdf" | absolute_url }}
 {:class="button special icon fa-download" target="\_blank"}
@@ -118,3 +136,5 @@ implemented this project.
 
 [cs241_tutorial]: http://www.instructables.com/id/Low-Energy-River-Quality-Monitor/
 {:class="button special icon fa-link" target="\_blank"}
+[cs241_image]: {{ "/images/cs241_image.png" | absolute_url }}
+{:style="float: right;margin-right: 7px;margin-top: 7px;width: 30%; height: 30%;"}
