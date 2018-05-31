@@ -6,6 +6,10 @@ rank: 0
 ---
 Below are some of the major projects I've worked on. They are split into two
 main categories - [research](#research) and [implementation](#implementation).
+Research projects are projects I've worked on that are either particularly
+novel, or resulted in some publishable contribution to the field. For my
+implementation projects, these are projects that have less of an academic focus,
+and are generally implementations of already published work.
 
 ### Research
 - [The Tock Operating System:](#tockos) A secure, embedded OS in Rust
@@ -21,7 +25,8 @@ main categories - [research](#research) and [implementation](#implementation).
 
 ## Research
 For research projects, the bulk of my work has focused on networking for
-embedded systems.
+embedded systems. These projects are all either part of existing research
+projects or are projects that have resulted in interesting, publishable work.
 
 ### The Tock Operating System ![Tock logo][tock_logo]
 {: #tockos}
@@ -33,10 +38,10 @@ system written in Rust. The goal of the project is to improve the security of
 low-power, IoT devices by leveraging Rust's compile-time guarantees.
 
 
-My work on this project has largely been focused on the networking stack. I
-am implementing a UDP/IPv6/6LoWPAN stack on Tock, which is slowly making its
-way into the mainstream kernel. You can check out my code for this project
-on my fork on [GitHub](https://github.com/ptcrews/tock).
+My work on this project has focused on the networking stack, and I am
+implementing a UDP/IPv6/6LoWPAN stack on Tock, which is slowly making its way
+into the mainstream kernel. You can check out my code for this project on my
+fork on [GitHub](https://github.com/ptcrews/tock).
 
 ### SOSP 2017 Tutorial ![SOSP logo][sosp_2017_logo]
 {: #sosp2017}
@@ -65,8 +70,10 @@ be unnecessarily complex. This paper was submitted to Sensys 2018.
 ## Implementation
 
 For implementation projects, most of my projects have focused on embedded
-systems, networking, and distributed systems. A collection of my work is listed
-below.
+systems, networking, and distributed systems. These project differ from my
+research projects as they are either re-implementations of already published
+work, or are projects that did not produce significantly novel results.
+A collection of my work is listed below.
 
 ### Senior Project
 {: #senior-project}

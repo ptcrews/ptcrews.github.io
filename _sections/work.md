@@ -1,6 +1,6 @@
 ---
-title: Work
-name: work
+title: Resume
+name: resume
 image: images/pic01.jpg
 rank: 1
 ---

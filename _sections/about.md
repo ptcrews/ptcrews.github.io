@@ -22,7 +22,7 @@ challenge, but one that has concrete, practical impacts.
 
 Outside of computer science, I enjoy the outdoors and photography. Both of
 these hobbies require me to pay attention to small details that are otherwise
-overlooked, and allows me to enjoy the natural world. Having grown up in
+overlooked, and allow me to enjoy the natural world. Having grown up in
 Washington State, I had the opportunity to spend a lot of time backpacking and
 exploring trails around the Cascade Mountains. Alongside photography and
 backpacking, I am also a fairly avid skier.
