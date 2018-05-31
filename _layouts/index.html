@@ -33,7 +33,11 @@
               <ul>
                 {% assign sorted_sections = site.sections | sort: 'rank' %}
                 {% for section in sorted_sections %}
-                  <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
+                  {% if section.link %}
+                    <li><a href="{{ section.link }}" target="_blank">{{ section.title }}</a></li>
+                  {% else %}
+                    <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
+                  {% endif %}
                 {% endfor %}
               </ul>
             </nav>
