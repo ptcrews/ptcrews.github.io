@@ -2,7 +2,7 @@
 title: About
 name: about
 image: images/about.png
-rank: 2
+rank: 0
 ---
 I am currently a student at Stanford University, studying computer science with
 a focus on designing **resilient**, **efficient**, and **secure** systems. I am

@@ -2,7 +2,7 @@
 title: Interests
 name: interests
 image: images/interests.png
-rank: 3
+rank: 2
 ---
 This page lists some of my interests and organizations I have been involved
 with. It is split into two major categories, [technical](#technical) and
@@ -25,14 +25,13 @@ activity-based interests.
 
 ## Technical
 
-### Applied Cybersecurity Club ![Applied Cyber Logo][applied-cyber-logo]
+### [Applied Cybersecurity Club][applied-cyber-website] ![Applied Cyber Logo][applied-cyber-logo]
 {: #applied-cyber}
-[website][applied-cyber-website]
 
-The Stanford Applied Cybersecurity Club has been a large part of my
-undergraduate career. As one of the leaders of the club, I have helped run
-several major workshops and events, while also working on interesting
-programming projects relating to computer security.
+The [Stanford Applied Cybersecurity Club][applied-cyber-website] has been a
+large part of my undergraduate career. As one of the leaders of the club, I
+have helped run several major workshops and events, while also working on
+interesting programming projects relating to computer security.
 
 #### Leadership
 {: #applied-cyber-leadership}
@@ -107,17 +106,22 @@ photographs that I have taken.
 {: #outdoors}
 
 My other large passion is the outdoors. Having grown up in Washington State,
+![Tahoe skiing][skiing_photo]
 I had the opportunity to spend a large portion of my youth in the woods and
-doing outdoor activities. I greatly enjoy backpacking, hiking, and skiing, and
-am always interested in finding and experiencing new places.
+doing outdoor activities. I greatly enjoy both backpacking and hiking, and
+have spent many days exploring the Cascade Mountains and sections of the
+Pacific Crest Trail. I am also a fairly avid skier, and have skied throughout
+Washington, California, Colorado, and Canada.
 
 ### Traveling
 {: #traveling}
 
+
+
 [applied-cyber-logo]: {{ "/images/applied_cyber_logo.png" | absolute_url }}
 {:style="float: right; margin-right: 7px; margin-top: 7px; width: 20%; height: 20%"}
 [applied-cyber-website]: https://applied-cyber.stanford.edu/
-{:class="button special icon fa-link" target="\_blank"}
+{:target="\_blank"}
 [applied-cyber-leadership]: {{ "/images/leadership.png" | absolute_url }}
 {:style="float: left; margin-right: 7px; margin-top: 7px; width: 40%; height: 40%"}
 
@@ -125,3 +129,6 @@ am always interested in finding and experiencing new places.
 {:style="float: right; margin-right: 10px; margin-top: 10px; width: 40%; height:40%"}
 [cptc_victory_news_article]: https://www.mercurynews.com/2017/11/15/computer-security-stanford-team-wins-national-contest/
 {:target="\_blank"}
+
+[skiing_photo]: {{ "/images/skiing_photo.png" | absolute_url }}
+{:style="float: left; margin-right: 10px; margin-top: 10px; width: 30%; height:30%"}

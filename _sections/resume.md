@@ -3,6 +3,5 @@ title: Resume
 name: resume
 link: docs/resume.pdf
 image: images/pic01.jpg
-rank: 1
+rank: 3
 ---
-This is placeholder text
