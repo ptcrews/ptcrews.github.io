@@ -116,7 +116,12 @@ Washington, California, Colorado, and Canada.
 ### Traveling
 {: #traveling}
 
-
+One of my other personal interests is traveling. I particularly like finding
+places that are less well known and places that have a long history. Personally,
+more obscure and less visited places allow me to experience and learn about
+new and different things with fewer expectations or preconceptions. Some of the
+places I've visited include Germany, Prague, Paris, Shanghai, Canada, and
+numerous U.S. States.
 
 [applied-cyber-logo]: {{ "/images/applied_cyber_logo.png" | absolute_url }}
 {:style="float: right; margin-right: 7px; margin-top: 7px; width: 20%; height: 20%"}

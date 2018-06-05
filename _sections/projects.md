@@ -76,7 +76,7 @@ research projects as they are either re-implementations of already published
 work, or are projects that did not produce significantly novel results.
 A collection of my work is listed below.
 
-### Senior Project ![Senior Project image][senior_project_image]
+### Senior Project
 {: #senior-project}
 [code][senior_project_code]
 
@@ -135,7 +135,6 @@ implemented this project.
 [6lowpan_logo]: {{ "/images/6lowpan_logo.png" | absolute_url }}
 {:style="float: right;margin-right: 7px;margin-top: 7px;width:25%;height:25%;"}
 
-[senior_project_image]: https://google.com
 {:style="float: right; margin-right: 7px; margin-top: 7px;"}
 [senior_project_code]: https://github.com/ptcrews/tock/tree/deluge_protocol
 {:class="button special icon fa-github" target="\_blank"}
