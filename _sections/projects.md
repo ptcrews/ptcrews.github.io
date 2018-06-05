@@ -5,18 +5,19 @@ image: images/projects.png
 rank: 0
 ---
 Below are some of the major projects I've worked on. They are split into two
-main categories - [research](#research) and [implementation](#implementation).
-Research projects are projects I've worked on that are either particularly
-novel, or resulted in some publishable contribution to the field. For my
-implementation projects, these are projects that have less of an academic focus,
-and are generally implementations of already published work.
+main categories - [research](#research) and [implementation](#implementation),
+and the lists below contain a quick description and a link to each project.
 
-### Research
+### [Research](#research)
+Research projects are projects I've worked on that are either particularly
+novel, or resulted in a publishable contribution or result.
 - [The Tock Operating System:](#tockos) A secure, embedded OS in Rust
 - [SOSP 2017 Tutorial:](#sosp2017) Tutorial for Tock at SOSP
 - [6LoWPAN:](#6lowpan) Research on the 6LoWPAN protocol
 
-### Implementation
+### [Implementation](#implementation)
+My implementation projects are projects that have less of an academic focus, and
+are generally implementations of already published work.
 - [Senior Project:](#senior-project) Wireless application updating
 - [CS 244B Project:](#cs244b) Distributed protocol for eventual consistency
 - [CS 241 Project:](#cs241) Low-power water quality measurement system
@@ -54,7 +55,7 @@ to use and interface with the operating system. By introducing other researchers
 to the Tock platform, we hoped to encourage other researchers and institutions
 to use Tock in the future.
 
-### 6LoWPAN
+### 6LoWPAN ![6LoWPAN logo][6lowpan_logo]
 {: #6lowpan}
 [poster][6lowpan_poster]
 
@@ -103,7 +104,7 @@ eventually consistent distributed system property.
 
 ### CS 241 Project ![CS241 image][cs241_image]
 {: #cs241}
-[tutorial][cs241_tutorial]
+[Build Your Own][cs241_tutorial]
 
 For my final project in CS 241 (Embedded Systems), my group created a low-power
 wireless water quality monitor system. We implemented a test-bed on the STM
@@ -113,7 +114,7 @@ measurements over GSM. We published an online tutorial demonstrating how we
 implemented this project.
 
 [tock_website]: https://www.tockos.org/
-{:target="\blank"}
+{:target="\_blank"}
 [tock_logo]: {{ "/images/tock_logo.svg" | absolute_url }}
 {:style="float: right;margin-right: 7px;margin-top: 7px;"}
 [tock_website_button]: https://www.tockos.org/
@@ -128,6 +129,8 @@ implemented this project.
 
 [6lowpan_poster]: {{ "/docs/sixlowpan_poster.pdf" | absolute_url }}
 {:class="button special icon fa-download" target="\_blank"}
+[6lowpan_logo]: {{ "/images/6lowpan_logo.png" | absolute_url }}
+{:style="float: right;margin-right: 7px;margin-top: 7px;width:25%;height:25%;"}
 
 [senior_project_code]: https://github.com/ptcrews/tock/tree/deluge_protocol
 {:class="button special icon fa-github" target="\_blank"}

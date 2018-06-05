@@ -20,6 +20,11 @@ societal change. For these reasons, it is crucial that these systems be
 resilient, efficient, and secure, which is not only an interesting technical
 challenge, but one that has concrete, practical impacts.
 
+I also have substantial leadership experience, as one of the core leaders for
+the Stanford Applied Cybersecurity Club. The club's focus has been on providing
+a platform for undergraduates to learn about computer security, and provides
+opportunities to work on projects and competitions relating to security.
+
 Outside of computer science, I enjoy the outdoors and photography. Both of
 these hobbies require me to pay attention to small details that are otherwise
 overlooked, and allow me to enjoy the natural world. Having grown up in
