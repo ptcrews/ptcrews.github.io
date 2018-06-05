@@ -135,7 +135,6 @@ implemented this project.
 [6lowpan_logo]: {{ "/images/6lowpan_logo.png" | absolute_url }}
 {:style="float: right;margin-right: 7px;margin-top: 7px;width:25%;height:25%;"}
 
-{:style="float: right; margin-right: 7px; margin-top: 7px;"}
 [senior_project_code]: https://github.com/ptcrews/tock/tree/deluge_protocol
 {:class="button special icon fa-github" target="\_blank"}
 [deluge_paper]: https://web.stanford.edu/class/cs244e/papers/deluge.pdf
