@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+  Dimension by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body>
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <div class="logo">
+              <a href="https://github.com/ptcrews/ptcrews.github.io" target="_blank">
+                <span class="icon fa-terminal">
+                </span>
+              </a>
+            </div>
+            <div class="content">
+              <div class="inner">
+                <h1>{{ site.author }}</h1>
+                {{ content }}
+              </div>
+            </div>
+            <nav>
+              <ul>
+                {% assign sorted_sections = site.sections | sort: 'rank' %}
+                {% for section in sorted_sections %}
+                  {% if section.link %}
+                    <li><a href="{{ section.link }}" target="_blank">{{ section.title }}</a></li>
+                  {% else %}
+                    <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </nav>
+          </header>
+
+        <!-- Main -->
+          <div id="main">
+
+            {% for section in site.sections %}
+              <!-- {{ section.title }} -->
+              <article id="{{ section.name }}">
+                <h2 class="major">{{ section.title }}</h2>
+                {% if section.image %}
+                  <span class="image main"><img src="{{ section.image }}" alt="" /></span>
+                {% endif %}
+                {{ section.content }}
+              </article>
+            {% endfor %}
+
+          </div>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <div>
+              <ul class="icons">
+                <li><a href="https://twitter.com/ptcrews" class="icon fa-twitter" target="_blank">
+                    <span class="label">Twitter</span></a></li>
+                <li><a href="https://linkedin.com/in/ptcrews" class="icon fa-linkedin" target="_blank">
+                    <span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/ptcrews" class="icon fa-github" target="_blank">
+                    <span class="label">GitHub</span></a></li>
+              </ul>
+            </div>
+            <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author }}. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+          </footer>
+
+      </div>
+
+    <!-- BG -->
+      <div id="bg"></div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
+</html>

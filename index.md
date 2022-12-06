@@ -1,7 +1,8 @@
 ---
 title: Home
 layout: index
+avatar: images/avatar.png
 ---
-I am a software engineer at Google, working on credential infrastructure  
-security. I am interested in designing ***secure systems*** with ***formal  
-guarantees*** to solve practical problems.
+Hi! I'm **Paul Crews (he/him)**,  
+and I'm a software engineer  
+focused on secure systems.
