@@ -34,7 +34,7 @@ rank: 2
 [nesvd-2022-slides]: {{ "/slides/ptcrews_NESVD_2022_slides.pdf" | absolute_url }}
 {:class="icon solid fa-file-pdf" target="\_blank"}
 
-[usenix-2022-poster]: {{ "/posters/ptcrews_USENIX_security_2022_poster.pdf" | absolute_url }}
+[usenix-2022-poster]: {{ "/posters/ptcrews_USENIX_Security_2022_poster.pdf" | absolute_url }}
 {:class="icon solid fa-file-pdf" target="\_blank"}
 
 [yarch-2022-slides]: {{ "/slides/ptcrews_YArch2022_slides.pdf" | absolute_url }}
